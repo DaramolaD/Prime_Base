@@ -1,0 +1,106 @@
+@import url('https://fonts.cdnfonts.com/css/mona-sans');
+
+*,
+*::after,
+*::before {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  all: unset;
+  font-family: 'Mona Sans', sans-serif;
+  background-color: #F2F2F2;
+  height: 100%;
+}
+
+/* Reusables */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+button,
+input {
+  border: none;
+  outline: none;
+}
+
+.container {
+  max-width: 1671.33px;
+  width: 100%;
+  margin: 0px auto;
+}
+
+/* componets */
+.btn {
+  background-color: #1A1A1A;
+  cursor: pointer;
+  border-radius: 100vw;
+  color: #FFF;
+  /* width: 119px;
+  height: 35px; */
+  padding: 15px 25px;
+  font-size: 18px;
+  border: 1px solid #1A1A1A;
+  transition: 0.15s all cubic-bezier(.77, 0, .18, 1);
+}
+
+.btn:hover {
+  background-color: #FFF;
+  color: #1A1A1A;
+}
+
+.top_cont {
+  padding-top: 200px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  padding-inline: 20px;
+}
+.top_cont .container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.form h2 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.form {
+  max-width: 500px;
+  width: 100%;
+}
+
+.formItem {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.formItem input {
+  flex: 1 1 250px;
+}
+
+.formItem .label {
+  font-size: 18px;
+  font-weight: bold;
+  flex: 1 1 180px;
+  text-align: center;
+}

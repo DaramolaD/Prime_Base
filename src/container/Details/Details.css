@@ -1,0 +1,41 @@
+.details {
+    padding-top: 200px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    padding-inline: 20px;
+}
+
+.details .container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.para_title {
+    font-size: 18px;
+    display: flex;
+    gap: 5px;
+}
+
+.span_item {
+    display: flex;
+    gap: 5px;
+}
+
+.para_title span {
+    text-transform: uppercase;
+}
+
+.span_item {
+    text-transform: capitalize;
+}
+.nameTop {
+    text-transform: capitalize;
+}
